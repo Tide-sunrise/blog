@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <title>Tide-sunrise的blog页面</title>
+  <meta charset="utf-8" />
+  <title>Tide-sunrise的Blog页面</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      background: white;
+      max-width: 700px;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 15px;
+      font-weight: 700;
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .highlight {
+      color: #2980b9;
+      font-weight: 600;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #999;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>欢迎来到我的项目！</h1>
-  <p>这是我用 GitHub Pages 搭建的子路径页面。</p>
+  <div class="container">
+    <h1>欢迎来到 <span class="highlight">Tide-sunrise</span> 的 Blog 页面！</h1>
+    
+    <p>
+      这里是我的个人博客，专注于分享前沿的人工智能技术和机器学习模型，尤其是扩散模型（Diffusion Model）。
+    </p>
+    
+    <p>
+      <strong>扩散模型（Diffusion Model）</strong> 是一类基于概率生成的深度学习方法。它通过逐步向数据添加噪声，再学习如何反向去噪来生成高质量样本。相比传统的生成对抗网络（GAN），扩散模型在训练上更稳定，生成的图像也更自然真实。典型代表包括 <em>DDPM（Denoising Diffusion Probabilistic Models）</em>。
+    </p>
+    
+    <p>
+      扩散模型广泛应用于图像生成、无监督学习、语音合成等多个领域，正在推动生成式AI技术迈上新台阶。
+    </p>
+
+    <footer>
+      © 2025 Tide-sunrise · <a href="https://github.com/tide-sunrise" target="_blank" rel="noopener">GitHub主页</a>
+    </footer>
+  </div>
 </body>
 </html>
